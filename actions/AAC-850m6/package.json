@@ -1,0 +1,5 @@
+{
+    "dependencies": {
+        "jose-node-cjs-runtime": "latest"
+    }
+}

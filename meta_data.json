@@ -1,0 +1,13 @@
+{
+    "categories": {
+        "0": "technical"
+    },
+    "demo_page": "https://mahir-plugins.bubbleapps.io/version-test/jwks",
+    "description": "This action generates an RSA key pair in JWK (JSON Web Key) format. It outputs:\n\n- A public JWKS (JSON Web Key Set) for API use.\n\n- A private JWKS for secure storage/use in your backend.\n\nUseful for generating secure key material for JWT signing, OAuth2 clients, or other cryptographic use cases.\n\nThis action currently supports RSA algorithms only via the jose-node-cjs-runtime library.",
+    "image": "//meta-q.cdn.bubble.io/f1745576261091x428903805695189060/vault.svg",
+    "license": "open_source",
+    "link": "https://mahir-plugins.bubbleapps.io/version-test/jwks",
+    "name": "JSON Web Key Set (JWKS) Generator",
+    "plugin_instructions": "Use the create JWKS action to generate the key set. \n\nUse this action to:\n\n- Generate keys for JWT-based authentication.\n\n- Configure OAuth2 / OpenID Connect clients with public keys.\n\n- Rotate and manage keys dynamically via Bubble workflows.",
+    "sa_node_version": 18
+}

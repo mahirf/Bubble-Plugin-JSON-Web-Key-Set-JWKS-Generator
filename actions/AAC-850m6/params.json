@@ -1,0 +1,20 @@
+{
+    "category": "plugins",
+    "display": "Create JWKS",
+    "return_value": {
+        "AAD": {
+            "caption": "privateJWKS",
+            "name": "privateJWKS",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAE": {
+            "caption": "publicJWKS",
+            "name": "publicJWKS",
+            "rank": 1,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}
